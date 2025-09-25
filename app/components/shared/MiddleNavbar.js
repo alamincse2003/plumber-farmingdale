@@ -32,7 +32,7 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
-    <header className=" w-full lg:mt-5  bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <header className="sticky top-0 z-50 w-full lg:mt-5  bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       {/* <header className="sticky top-0 z-50 w-full  bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60"> */}
       <nav className=" max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8">
         {/* Desktop / Tablet bar */}
@@ -44,7 +44,7 @@ export default function Navbar() {
               className="flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-lg p-1"
             >
               <Image
-                src="/images/logo.webp"
+                src="/images/logo/logo1.png"
                 alt="Logo"
                 width={291}
                 height={49}
