@@ -84,9 +84,9 @@ export default function WhyChooseUs() {
               </h3>
             </div>
             <p className="text-gray-600">
-              Farmingdale NY&apos;s most reliable plumbing service guarantees
-              your satisfaction. Our plumbers ensure quality work with every
-              plumbing project completed.
+              Farmingdale NYs most reliable plumbing service guarantees your
+              satisfaction. Our plumbers ensure quality work with every plumbing
+              project completed.
             </p>
           </div>
         </div>
