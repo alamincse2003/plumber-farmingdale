@@ -1,5 +1,6 @@
 import About from "./components/home/About";
 import Hero from "./components/home/Hero";
+import PlumbingServices from "./components/home/PlumbingServices";
 import WhyChooseUs from "./components/home/WhyChooseUs";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <WhyChooseUs />
+      <PlumbingServices />
     </>
   );
 }
