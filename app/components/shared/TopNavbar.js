@@ -1,8 +1,8 @@
-// components/TopNavbar.jsx
+"use client";
 export default function TopNavbar() {
   return (
     <header className="bg-blue-600">
-      <div className="hidden lg:text-xl  font-semibold max-w-6xl mx-auto lg:flex justify-between items-center  text-white text-sm px-6 py-2">
+      <div className="hidden lg:text-xl max-w-6xl mx-auto font-semibold lg:flex justify-between items-center  text-white text-sm px-6 py-2">
         {/* Left side */}
         <div>Open - 24/7</div>
 
