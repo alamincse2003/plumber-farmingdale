@@ -9,7 +9,7 @@ export default function About() {
       <div className="container max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         {/* Left Side - Text */}
         <div className="flex-1 text-center md:text-left">
-          <h2 className="lg:text-3xl md:text-3xl text-2xl font-bold text-gray-800 mb-4 uppercase">
+          <h2 className="lg:text-3xl md:text-3xl text-xl font-bold text-gray-700 mb-4 uppercase">
             About Plumber Farmingdale
           </h2>
           <p className="text-gray-600 mb-6 leading-relaxed">

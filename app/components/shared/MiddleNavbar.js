@@ -33,8 +33,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full lg:mt-5  bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-      {/* <header className="sticky top-0 z-50 w-full  bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60"> */}
-      <nav className=" max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-7xl   mx-auto px-2  xs:px-3 sm:px-4  lg:px-4">
         {/* Desktop / Tablet bar */}
         <div className="relative flex h-16 items-center justify-between">
           {/* Left: Logo */}
@@ -49,18 +48,11 @@ export default function Navbar() {
                 width={291}
                 height={49}
               />
-              {/* Simple logo mark */}
-              {/* <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-indigo-600 text-white font-bold">
-                P
-              </span>
-              <span className="hidden sm:inline-block text-lg font-semibold tracking-tight">
-                PlumbPro
-              </span> */}
             </Link>
           </div>
 
           {/* Middle: Links (desktop). Hidden on mobile */}
-          <div className="pointer-events-auto hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-1 lg:gap-2 xl:gap-3">
+          <div className="pointer-events-auto hidden lg:flex   md:hidden absolute left-1/2 -translate-x-1/2 items-center gap-1 lg:gap-2  xl:gap-3">
             {/* Home */}
             <TopLink href="/" label="Home" />
 
@@ -158,7 +150,7 @@ export default function Navbar() {
           </div>
 
           {/* Right: Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               type="button"
               aria-expanded={mobileOpen}
@@ -275,10 +267,8 @@ function TopLink({ href, label, hasDropdown }) {
     <Link
       href={href}
       className={cx(
-        "inline-flex items-center gap-1 rounded-xl px-3 py-2 text-sm font-medium transition-colors",
-        active
-          ? "text-indigo-700 bg-indigo-50"
-          : "text-gray-700 hover:text-indigo-700 hover:bg-gray-50"
+        "inline-flex items-center gap-1 rounded-xl    px-3 py-2   text-sm font-medium transition-colors",
+        active ? "text-blue-500  " : "text-gray-700 hover:text-blue-500   "
       )}
     >
       <span>{label}</span>
@@ -291,7 +281,7 @@ function DropdownLink({ href, label, hasChevronRight }) {
   return (
     <Link
       href={href}
-      className="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-700"
+      className="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-gray-700   hover:text-blue-500 "
     >
       <span>{label}</span>
       {hasChevronRight && (
@@ -309,9 +299,7 @@ function MobileItem({ href, label }) {
       href={href}
       className={cx(
         "block rounded-xl px-3 py-2 text-base",
-        active
-          ? "bg-indigo-50 text-indigo-700"
-          : "text-gray-800 hover:bg-gray-50 hover:text-indigo-700"
+        active ? "  text-blue-500 " : "text-gray-800   hover:text-blue-500 "
       )}
     >
       {label}
@@ -330,9 +318,7 @@ function MobileParent({ label, href, open, onToggle, isNested, children }) {
           href={href}
           className={cx(
             "flex-1 rounded-xl px-3 py-2 text-base",
-            active
-              ? "bg-indigo-50 text-indigo-700"
-              : "text-gray-800 hover:bg-gray-50 hover:text-indigo-700"
+            active ? "text-blue-500 " : "text-gray-800  hover:text-blue-500 "
           )}
         >
           {label}
@@ -363,9 +349,7 @@ function MobileChild({ href, label }) {
       href={href}
       className={cx(
         "block rounded-xl px-3 py-2 text-base ml-6",
-        active
-          ? "bg-indigo-50 text-indigo-700"
-          : "text-gray-700 hover:bg-gray-50 hover:text-indigo-700"
+        active ? "  text-blue-500 " : "text-gray-700   hover:text-blue-500 "
       )}
     >
       {label}

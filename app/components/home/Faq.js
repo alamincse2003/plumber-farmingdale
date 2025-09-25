@@ -15,8 +15,8 @@ export default function Faq() {
       a: "Yes, all our plumbers are fully licensed, bonded, and insured in New York State. We maintain all required local Farmingdale and Nassau County certifications, and our work always meets or exceeds local building codes.",
     },
     {
-      q: "Are we licensed and insured in Farmingdale NY?",
-      a: "Yes, all our plumbers are fully licensed, bonded, and insured in New York State. We maintain all required local Farmingdale and Nassau County certifications, and our work always meets or exceeds local building codes.",
+      q: "How much does a typical plumbing service cost in Farmingdale, NY?",
+      a: "Our service costs in Farmingdale NY depend on the specific plumbing issue. It can vary from 50$ upto 2000$, depending on each specific situatuion.",
     },
   ];
 
@@ -24,7 +24,7 @@ export default function Faq() {
     <section className="bg-gray-100 py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Title */}
-        <h2 className="text-2xl sm:text-3xl md:text-3xl font-extrabold uppercase text-gray-900 mb-8">
+        <h2 className="text-xl sm:text-3xl md:text-3xl font-bold uppercase text-gray-700 mb-8">
           Frequently Asked Questions About Plumbing in Farmingdale, NY
         </h2>
 

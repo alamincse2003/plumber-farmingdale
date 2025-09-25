@@ -27,7 +27,7 @@ export default function TestimonialRanting() {
         {/* Grid */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
           {items.map((t, i) => (
-            <article key={i} className="bg-gray-100/90 rounded-sm p-8 sm:p-10 ">
+            <article key={i} className="bg-gray-200 rounded-sm p-8 sm:p-10 ">
               {/* Stars */}
               <div className="mb-4 flex items-center justify-center text-amber-500">
                 {Array.from({ length: 5 }).map((_, s) => (

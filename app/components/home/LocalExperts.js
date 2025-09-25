@@ -12,7 +12,7 @@ export default function LocalExperts() {
         </p>
 
         {/* Title */}
-        <h2 className="mt-1 text-2xl sm:text-3xl uppercase md:text-4xl font-extrabold tracking-tight text-gray-900">
+        <h2 className="mt-1 text-2xl sm:text-3xl uppercase md:text-4xl font-extrabold tracking-tight text-gray-700">
           LOCAL PLUMBING EXPERTS IN FARMINGDALE, NY
         </h2>
 
@@ -37,7 +37,7 @@ export default function LocalExperts() {
           expertise in plumbing infrastructure, building codes, and common
           issues, we deliver fast, professional service to residential and
           commercial properties. Because we’re local, we ensure quick response
-          times across all Farmingdale neighborhoods.{" "}
+          times across all Farmingdale neighborhoods.
           <Link href="/contact" className=" underline">
             Contact us today
           </Link>
@@ -51,7 +51,7 @@ export default function LocalExperts() {
         <div className="mt-8 grid grid-cols-1 gap-8 sm:gap-10 md:grid-cols-2">
           {/* Left block */}
           <div>
-            <h3 className="lg:text-3xl sm:text-xl font-extrabold   text-blue-700">
+            <h3 className="lg:text-3xl sm:text-xl font-semibold   text-blue-600">
               SAME-DAY SERVICE AVAILABLE
             </h3>
             <p className="mt-2 text-sm sm:text-base leading-relaxed text-gray-700">
@@ -66,7 +66,7 @@ export default function LocalExperts() {
 
           {/* Right block */}
           <div>
-            <h3 className="lg:text-3xl sm:text-xl font-extrabold tracking-tight text-gray-900">
+            <h3 className="lg:text-3xl sm:text-xl font-semibold tracking-tight text-gray-700">
               SERVING SINCE 2016
             </h3>
             <p className="mt-2 text-sm sm:text-base leading-relaxed text-gray-700">

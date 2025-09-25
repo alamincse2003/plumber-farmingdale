@@ -223,10 +223,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
+      <hr className=" border-gray-300" />
       {/* Bottom bar */}
-      <div className="bg-gray-100 border-t">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+      <div className="bg-gray-100 ">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
           <p className="text-xs text-gray-600 text-center">
             Copyright © {new Date().getFullYear()} Plumber Farmingdale Ny
           </p>
@@ -234,28 +234,28 @@ export default function Footer() {
             <a
               href="https://facebook.com"
               aria-label="Facebook"
-              className="hover:text-gray-700"
+              className="hover:text-red-500"
             >
               <FaFacebookF />
             </a>
             <a
               href="https://youtube.com"
               aria-label="YouTube"
-              className="hover:text-gray-700"
+              className="hover:text-red-500"
             >
               <FaYoutube />
             </a>
             <a
               href="https://pinterest.com"
               aria-label="Pinterest"
-              className="hover:text-gray-700"
+              className="hover:text-red-500"
             >
               <FaPinterestP />
             </a>
             <a
               href="https://twitter.com"
               aria-label="Twitter/X"
-              className="hover:text-gray-700"
+              className="hover:text-red-500"
             >
               <FaTwitter />
             </a>

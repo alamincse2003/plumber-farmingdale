@@ -31,7 +31,7 @@ export default function ServicesWeProvideList() {
     <section className="bg-gray-100 py-14 sm:py-16">
       <div className="container mx-auto w-full max-w-3xl px-4 sm:px-6">
         {/* Title */}
-        <h2 className="text-center text-3xl sm:text-4xl font-extrabold tracking-wide uppercase text-gray-900">
+        <h2 className="text-center lg:text-3xl text-2xl sm:text-4xl font-bold tracking-wide uppercase text-gray-700">
           Services We Provide
         </h2>
 

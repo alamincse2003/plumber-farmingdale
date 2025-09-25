@@ -4,18 +4,18 @@ import { FiCheck } from "react-icons/fi";
 
 export default function AreasAndDirections() {
   return (
-    <section className="bg-gray-50 py-14 sm:py-16">
+    <section className="bg-gray-100 py-14 sm:py-16">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
           {/* Left: Areas we serve */}
           <div>
-            <h2 className="mb-6 text-2xl font-extrabold uppercase tracking-wide text-gray-900">
+            <h2 className="mb-6 text-2xl font-bold uppercase tracking-wide text-gray-700">
               Areas We Serve
             </h2>
-            <ul className="space-y-2 text-gray-900">
+            <ul className="space-y-2 text-gray-700">
               <li>
                 <div className="flex items-start gap-2">
-                  <FiCheck className="mt-1 text-blue-600" />
+                  <FiCheck className="mt-1 text-gray-700" />
                   <Link
                     href="/locations/south-farmingdale"
                     className="underline hover:text-blue-700"
@@ -26,7 +26,7 @@ export default function AreasAndDirections() {
               </li>
               <li>
                 <div className="flex items-start gap-2">
-                  <FiCheck className="mt-1 text-blue-600" />
+                  <FiCheck className="mt-1 text-gray-700" />
                   <Link
                     href="/locations/north-farmingdale"
                     className="underline hover:text-blue-700"
@@ -37,7 +37,7 @@ export default function AreasAndDirections() {
               </li>
               <li>
                 <div className="flex items-start gap-2">
-                  <FiCheck className="mt-1 text-blue-600" />
+                  <FiCheck className="mt-1 text-gray-700" />
                   <Link
                     href="/locations/east-farmingdale"
                     className="underline hover:text-blue-700"
@@ -48,7 +48,7 @@ export default function AreasAndDirections() {
               </li>
               <li>
                 <div className="flex items-start gap-2">
-                  <FiCheck className="mt-1 text-blue-600" />
+                  <FiCheck className="mt-1 text-gray-700" />
                   <Link
                     href="/locations/west-farmingdale"
                     className="underline hover:text-blue-700"
@@ -60,7 +60,7 @@ export default function AreasAndDirections() {
                 {/* nested */}
                 <ul className="mt-2 ml-6 space-y-2">
                   <li className="flex items-start gap-2">
-                    <FiCheck className="mt-1 text-blue-600" />
+                    <FiCheck className="mt-1 text-gray-700" />
                     <Link
                       href="/locations/west/estates"
                       className="underline hover:text-blue-700 text-sm"
@@ -69,7 +69,7 @@ export default function AreasAndDirections() {
                     </Link>
                   </li>
                   <li className="flex items-start gap-2">
-                    <FiCheck className="mt-1 text-blue-600" />
+                    <FiCheck className="mt-1 text-gray-700" />
                     <Link
                       href="/locations/west/manor"
                       className="underline hover:text-blue-700 text-sm"
@@ -85,12 +85,12 @@ export default function AreasAndDirections() {
 
           {/* Right: Directions */}
           <div>
-            <h2 className="mb-6 text-2xl font-extrabold uppercase tracking-wide text-gray-900">
+            <h2 className="mb-6 text-2xl font-bold uppercase tracking-wide text-gray-700">
               Directions
             </h2>
             <div className="space-y-6 text-gray-800">
               <div>
-                <p className="font-semibold text-gray-900">
+                <p className="font-semibold text-gray-700">
                   From Long Island MacArthur Airport:
                 </p>
                 <p className="mt-1 leading-relaxed">
@@ -104,7 +104,7 @@ export default function AreasAndDirections() {
               </div>
 
               <div>
-                <p className="font-semibold text-gray-900">
+                <p className="font-semibold text-gray-700">
                   From Downtown Farmingdale:
                 </p>
                 <p className="mt-1 leading-relaxed">
@@ -118,7 +118,7 @@ export default function AreasAndDirections() {
               </div>
 
               <div>
-                <p className="font-semibold text-gray-900">From I-495 West:</p>
+                <p className="font-semibold text-gray-700">From I-495 West:</p>
                 <p className="mt-1 leading-relaxed">
                   Merge onto I-495 West and travel for approximately 6 miles
                   until you reach the exit for NY-24 North. Once on NY-24 North,

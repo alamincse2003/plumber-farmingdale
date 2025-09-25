@@ -15,7 +15,7 @@ export default function ServicesWeProvide() {
         <div className="mt-10 grid grid-cols-1 gap-8 md:gap-10 md:grid-cols-3">
           {/* Card 1 */}
           <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase   text-gray-700">
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase   text-gray-700">
               Septic System
               <br />
               Repair
@@ -37,7 +37,7 @@ export default function ServicesWeProvide() {
 
           {/* Card 2 */}
           <article className="bg-white hover:bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase tracking-tight text-gray-700">
               Water Heater Repair
             </h3>
             <p className="mt-4 text-gray-700 leading-relaxed">
@@ -58,7 +58,7 @@ export default function ServicesWeProvide() {
 
           {/* Card 3 */}
           <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase tracking-tight text-gray-700">
               Drain Cleaning
             </h3>
             <p className="mt-4 text-gray-700 leading-relaxed">
@@ -75,251 +75,46 @@ export default function ServicesWeProvide() {
               hassle‑free drainage for your home or business.
             </p>
           </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
+          {/* Card 4 */}
+          <article className="hover:bg-gray-200 p-8 sm:p-10">
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase tracking-tight text-gray-700">
+              Leak Repair
             </h3>
             <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
+              Don’t let leaks disrupt your home’s comfort or lead to costly
+              water damage. <Link href="#">Our leak repair service</Link>
+              swiftly locates and fixes hidden leaks in pipes, faucets, and
+              other fixtures. Using state-of-the-art technology, we minimize
+              water waste and restore your system’s integrity, protecting your
+              property and peace of mind.
             </p>
           </article>
-          {/* Card 3 */}
+          {/* Card 5 */}
           <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase tracking-tight text-gray-700">
+              Gas Line Repair
             </h3>
             <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
+              Ensure the safety of your home with{" "}
+              <Link href="#">our reliable gas line repair service</Link>. Our
+              skilled technicians promptly address leaks, blockages, and other
+              issues to prevent dangerous hazards. We follow strict safety
+              protocols and industry standards, ensuring your gas system
+              operates safely and efficiently for worry-free living.
             </p>
           </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
+          {/* Card 6 */}
+          <article className="hover:bg-gray-200 p-8 sm:p-10">
+            <h3 className="text-2xl sm:text-3xl font-bold uppercase tracking-tight text-gray-700">
+              Water Treatment
             </h3>
             <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
-            </p>
-          </article>
-          {/* Card 3 */}
-          <article className="bg-gray-200 p-8 sm:p-10">
-            <h3 className="text-2xl sm:text-3xl font-extrabold uppercase tracking-tight text-gray-900">
-              Drain Cleaning
-            </h3>
-            <p className="mt-4 text-gray-700 leading-relaxed">
-              Keep your drains flowing smoothly with our{" "}
-              <Link
-                href="#"
-                className="underline text-gray-900 hover:text-blue-700"
-              >
-                expert drain cleaning service
-              </Link>
-              . Our team uses advanced techniques and eco‑friendly solutions to
-              remove stubborn blockages, grease, and debris. Trust us to restore
-              your plumbing’s efficiency and prevent future clogs, ensuring
-              hassle‑free drainage for your home or business.
+              Ensure safe, clean water for your family with{" "}
+              <Link href="#">our comprehensive water treatment services</Link> .
+              We assess and treat your water supply to remove contaminants,
+              improve taste, and safeguard your health. Our customized solutions
+              include filtration, softening, and disinfection, providing you
+              with peace of mind and a healthier living environment.
             </p>
           </article>
         </div>
